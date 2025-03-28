@@ -311,32 +311,32 @@ compress_html:
 
 
 # Defaults
-# defaults:
-#   # _posts
-#   - scope:
-#       path: ""
-#       type: portfolio # posts
-#     values:
-#       layout: single
-#       author_profile: true
-#       read_time: true
-#       comments: # true
-#       share: false
-#       related: false
-
 defaults:
-  # _portfolio
+  # _posts
   - scope:
       path: ""
-      type: portfolio
+      type: posts
     values:
       layout: single
-      author_profile: false
-      share: true
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: false
+      related: false
+
+# defaults:
+#   # _portfolio
+#   - scope:
+#       path: ""
+#       type: portfolio
+#     values:
+#       layout: single
+#       author_profile: false
+#       share: true
 
       
-# Collections
-collections:
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
+# # Collections
+# collections:
+#   portfolio:
+#     output: true
+#     permalink: /:collection/:path/
