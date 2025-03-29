@@ -333,7 +333,7 @@ compress_html:
 #       layout: single
 #       author_profile: true
 
-# include: ["_pages"]
+include: ["_pages"]
 
 # defaults:
 #   # _portfolio
